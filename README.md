@@ -1,43 +1,47 @@
-# JSL02 Challenge – Solution Code
+# JSL03 Challenge – Solution Code
 
 ## Overview
 
-This repository provides the **official solution code for the JSL02 challenge**. It is meant to help students verify their understanding of JavaScript fundamentals, particularly **user input validation**, **conditional logic**, and **basic output to the console**.
+This repository provides the **official solution code for the JSL03 challenge**. It is designed to reinforce JavaScript fundamentals such as **user input validation**, **conditional logic**, **dynamic object creation**, and **array manipulation**.
 
 Students should use this solution to:
 
-- Review their approach to handling user input via `prompt()`
-- Compare logic used for validating task statuses (`todo`, `doing`, `done`)
-- Understand how to handle multiple conditional outputs
-- Improve their code readability and structure before continuing to **JSL03**
+- Learn how to collect and validate user input for task management
+- Understand how to dynamically create and manage objects in an array
+- Practice checking task completion and giving meaningful console feedback
 
 ## Features Covered
 
 The solution demonstrates how to:
 
-- Prompt the user for **titles**, **descriptions**, and **status** of two tasks
-- Validate the entered status to ensure it's one of the allowed options
-- Display a **summary in the console** if a task is marked `"done"`
-- Log a motivational message if **neither** task is completed
+- Start with a pre-filled array of 3 existing tasks
+- Let the user **add up to 3 new tasks** with title, description, and valid status (`todo`, `doing`, `done`)
+- Validate the status input using a **loop** that re-prompts until valid
+- Allow the user to **cancel input** at any time, gracefully stopping the task entry process
+- Still log the existing tasks even if the user cancels mid-way
+- Filter and log all tasks marked `"done"`
+- Display a motivational message if **no tasks** are completed
 
 ## Structure
 
 The project includes:
 
-- ✅ Interactive JavaScript to collect and validate user input
-- 🧠 Clear loops for input validation
-- 🔍 Simple logic that checks and logs completion status
-- 💬 Console messages to give meaningful feedback to the user
+- A loop that allows adding multiple tasks up to a max of 6
+- Input cancellation handling using `prompt()` return values
+- Status validation loop that ensures only valid task states
+- Dynamic task object creation with auto-incremented IDs
+- Console output showing all tasks and any completed ones
+- Friendly alerts and feedback throughout the process
 
 ## How to Use This Solution
 
-1. Open the project folder with **Live Server** in VS Code, then open your browser's **developer console** to view the outputs.
-2. Compare the input handling, validation, and logging logic to your own implementation.
-3. Reflect on any areas where your code could be **cleaner**, **more robust**, or **easier to read**.
-4. Make necessary improvements before continuing to JSL03.
+1. Open the project in **VS Code** and run it using **Live Server** (or directly in the browser).
+2. Open the **Developer Console** to view real-time task logs and motivational messages.
+3. Try canceling a prompt mid-way — observe how the program still logs your progress.
+4. Compare the code’s structure, validation logic, and flexibility to your own version.
 
 ---
 
 ## License
 
-This solution code is provided for **educational use only**.
+This solution code is provided for **educational use only**. Feel free to modify, study, and learn from it — but do not submit it as your own work in assessments without proper understanding.
