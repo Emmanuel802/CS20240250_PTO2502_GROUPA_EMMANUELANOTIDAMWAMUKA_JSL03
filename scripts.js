@@ -18,3 +18,12 @@ const tasks = [
     status: "done",
   },
 ];
+
+for (let i = 0; i < 3; i++) {
+  if (tasks.length >= 6) {
+    alert(
+      "There are enough tasks on your board, please check them in the console."
+    );
+    break;
+  }
+}
