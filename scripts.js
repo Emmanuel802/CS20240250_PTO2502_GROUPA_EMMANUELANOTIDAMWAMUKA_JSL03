@@ -26,4 +26,13 @@ for (let i = 0; i < 3; i++) {
     );
     break;
   }
+
+  const title = prompt(`Enter task ${tasks.length + 1} title:`);
+  if (title === null) break;
+
+  const description = prompt(`Enter task ${tasks.length + 1} description:`);
+  if (description === null) break;
+
+  let status = prompt("Enter task status (todo, doing, done):").toLowerCase();
+  if (status === null) break;
 }
