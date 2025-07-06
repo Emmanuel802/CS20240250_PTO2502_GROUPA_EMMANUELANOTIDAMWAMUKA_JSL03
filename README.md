@@ -14,13 +14,10 @@ Students should use this solution to:
 
 The solution demonstrates how to:
 
-- Start with a pre-filled array of 3 existing tasks
+- Store tasks in a array
 - Let the user **add up to 3 new tasks** with title, description, and valid status (`todo`, `doing`, `done`)
 - Validate the status input using a **loop** that re-prompts until valid
-- Allow the user to **cancel input** at any time, gracefully stopping the task entry process
-- Still log the existing tasks even if the user cancels mid-way
 - Filter and log all tasks marked `"done"`
-- Display a motivational message if **no tasks** are completed
 
 ## Structure
 
