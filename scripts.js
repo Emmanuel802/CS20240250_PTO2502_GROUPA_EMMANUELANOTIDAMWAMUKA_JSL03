@@ -42,4 +42,11 @@ for (let i = 0; i < 3; i++) {
   }
 
   if (status === null) break;
+
+  const newTask = {
+    id: tasks.length + 1,
+    title: title,
+    description: description,
+    status: status,
+  };
 }
