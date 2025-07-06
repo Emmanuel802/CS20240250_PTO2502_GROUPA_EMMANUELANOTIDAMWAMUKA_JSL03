@@ -55,3 +55,12 @@ for (let i = 0; i < 3; i++) {
 
 console.log("All tasks:");
 console.log(tasks);
+
+const completedTasks = tasks.filter((task) => task.status === "done");
+
+if (completedTasks.length > 0) {
+  console.log("Completed tasks:");
+  console.log(completedTasks);
+} else {
+  console.log("No completed tasks, Let's get to work!");
+}
