@@ -49,4 +49,6 @@ for (let i = 0; i < 3; i++) {
     description: description,
     status: status,
   };
+
+  tasks.push(newTask);
 }
