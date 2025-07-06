@@ -40,4 +40,6 @@ for (let i = 0; i < 3; i++) {
     alert("Invalid status. Please enter 'todo', 'doing', or 'done'.");
     status = prompt("Enter task status (todo, doing, done):").toLowerCase();
   }
+
+  if (status === null) break;
 }
