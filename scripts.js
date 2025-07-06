@@ -52,3 +52,6 @@ for (let i = 0; i < 3; i++) {
 
   tasks.push(newTask);
 }
+
+console.log("All tasks:");
+console.log(tasks);
